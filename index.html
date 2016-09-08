@@ -21,61 +21,50 @@
 		<div class="weather right">
 			<div id="weather" class="weather"></div>					
 		</div>		
-		<input id="search box" type="text" class="searchbox" placeholder="¿" onkeypress="searchKeyPress(event)"></input>
 		<ul class="box">
 			<div class="left">
 				<li><a id="parent1" class="parent" href="javascript:void(0)">Social Media<span class="right">s</span></a>
 					<ul class="subMenu">
 						<li><a class="tab tab1" href="https://facebook.com/">Facebook<span class="right">f</span></a></li>
 						<li><a class="tab tab1" href="https://messenger.com/">Messenger<span class="right">m</span></a></li>
-						<li><a class="tab tab1" href="https://instagram.com/">Instagram<span class="right">i</span></a></li>
-						<li><a class="tab tab1" href="https://tumblr.com/">Tumblr<span class="right">t</span></a></li>
 						<li><a class="tab tab1" href="https://twitter.com/">Twitter<span class="right">w</span></a></li>
 						<li><a class="tab tab1" href="https://inbox.google.com/u/0/">Gmail<span class="right">g</span></a></li>
+                        <li><a class="tab tab1" href="https://linkedin.com/">LinkedIn<span class="right">l</span></a></li>
 					</ul>
 				</li>
-				<li><a id="parent2" class="parent" href="javascript:void(0)">Music &amp; Videos<span class="right">m</span></a>
+				<li><a id="parent2" class="parent" href="javascript:void(0)">Watch<span class="right">w</span></a>
 					<ul class="subMenu">
 						<li><a class="tab tab2" href="https://netflix.com/">Netflix<span class="right">n</span></a></li>
-						<li><a class="tab tab2" href="https://hulu.com/">Hulu<span class="right">h</span></a></li>
-						<li><a class="tab tab2" href="https://youtube.com/">YouTube<span class="right">y</span></a></li>
-						<li><a class="tab tab2" href="https://soundcloud.com/">SoundCloud<span class="right">c</span></a></li>
-						<li><a class="tab tab2" href="https://play.spotify.com/">Spotify Web Client<span class="right">s</span></a></li>
-						<li><a class="tab tab2" href="https://music.google.com/">Google Play Music<span class="right">g</span></a></li>
+						<li><a class="tab tab2" href="https://play.hbogo.com/">HBO GO<span class="right">h</span></a></li>
+						<li><a class="tab tab2" href="https://www.youtube.com/feed/subscriptions/">YouTube<span class="right">y</span></a></li>
+						<li><a class="tab tab2" href="https://Giantbomb.com/">Giantbomb<span class="right">g</span></a></li>
+						<li><a class="tab tab2" href="https://twitch.tv/">Twitch<span class="right">t</span></a></li>
 					</ul>
 				</li>				
 			</div>
 			<div class="right">
-				<li><a id="parent3" class="parent" href="javascript:void(0)">Reddit<span class="right">r</span></a>
+				<li><a id="parent3" class="parent" href="javascript:void(0)">Games &amp; Tech<span class="right">g</span></a>
 					<ul class="subMenu">
-						<li><a class="tab tab3" href="https://reddit.com/">Front Page<span class="right">f</span></a></li>
-						<li><a class="tab tab3" href="https://reddit.com/r/trees/">/r/trees<span class="right">t</span></a></li>
-						<li><a class="tab tab3" href="https://reddit.com/r/see/">/r/see<span class="right">s</span></a></li>
-						<li><a class="tab tab3" href="https://reddit.com/r/blackpeopletwitter/">/r/blackpeopletwitter<span class="right">b</span></a></li>
-						<li><a class="tab tab3" href="https://reddit.com/r/showerthoughts/">/r/showerthoughts<span class="right">w</span></a></li>
-						<li><a class="tab tab3" href="https://reddit.com/r/unixporn/">/r/unixporn<span class="right">u</span></a></li>
-						<li><a class="tab tab3" href="https://reddit.com/r/startpages/">/r/startpages<span class="right">x</span></a></li>
+						<li><a class="tab tab3" href="https://news.ycombinator.com/">Hacker News<span class="right">h</span></a></li>
+						<li><a class="tab tab3" href="https://boards.4chan.org/g/">/g/ - Technology<span class="right">t</span></a></li>
+						<li><a class="tab tab3" href="http://www.theverge.com/">The Verge<span class="right">v</span></a></li>
+						<li><a class="tab tab3" href="http://www.neogaf.com/forum/">NeoGaf<span class="right">n</span></a></li>
+						<li><a class="tab tab3" href="https://reddit.com/">reddit<span class="right">r</span></a></li>
 					</ul>
 				</li>
-				<li><a id="parent4" class="parent" href="javascript:void(0)">Comics<span class="right">c</span></a>
+				<li><a id="parent4" class="parent" href="javascript:void(0)">Clothes<span class="right">c</span></a>
 					<ul class="subMenu">
-						<li><a class="tab tab4" href="http://xkcd.com/">XKCD<span class="right">x</span></a></li>
-						<li><a class="tab tab4" href="http://explosm.net/">Cyanide and Happiness<span class="right">&amp;</span></a></li>
-						<li><a class="tab tab4" href="http://potshotcomic.com/">Pot Shot Comic<span class="right">p</span></a></li>
-						<li><a class="tab tab4" href="http://powernapcomic.com/">Powernap Comic<span class="right">n</span></a></li>
-						<li><a class="tab tab4" href="http://extrafabulouscomics.com/">Extra Fabulous Comics<span class="right">e</span></a></li>
-						<li><a class="tab tab4" href="http://thedoghousediaries.com/">Doghouse Diaries<span class="right">d</span></a></li>
-						<li><a class="tab tab4" href="http://questionablecontent.net/">Questionable Content<span class="right">q</span></a></li>
-						<li><a class="tab tab4" href="http://smbc-comics.com/">Saturday Morning Breakfast Cereal<span class="right">s</span></a></li>
-						<li><a class="tab tab4" href="http://theoatmeal.com/comics/">The Oatmeal<span class="right">o</span></a></li>
+						<li><a class="tab tab4" href="http://hypebeast.com">Hypebeast<span class="right">h</span></a></li>
+						<li><a class="tab tab4" href="http://gearpatrol.com">GP<span class="right">g</span></a></li>
+						<li><a class="tab tab4" href="http://http://airows.com/">Airows<span class="right">a</span></a></li>
+						<li><a class="tab tab4" href="http://valetmag.com/">Valet<span class="right">v</span></a></li>
+						<li><a class="tab tab4" href="http://coolmaterial.com/">CM<span class="right">m</span></a></li>
 					</ul>
 				</li>
 			</div>
 		</ul>
 		<div class="clear"></div>		
 	</div>
-	<p class="bottom fadeIn">
-	<span class="weatherlink"></span>
-	</p>
+
 </body>
 </html>
