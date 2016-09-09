@@ -1,5 +1,5 @@
 // Finds current time and date, formats it properly
-function startTime() {	
+function startTime() {
 	var now = new Date();
 	var hour = ('0' + now.getHours()).slice(-2);
 	var mins = now.getMinutes();
@@ -23,7 +23,7 @@ function startTime() {
 // Gets weather for requested location, appends to page
 function getWeather(place) {
 	$.simpleWeather({
-		location: place,
+		location: "Washington, DC",
 		unit: 'f',
 		success: function(weather) {
 			$('.weather').html(weather.city + '</br>' + weather.currently + ', ' + weather.temp + '&deg;');
@@ -35,8 +35,8 @@ function getWeather(place) {
 	});
 }
 
-// Geolocates the user, otherwise defaulting to Washington, DC 
-function loadStuff() {	
+// Geolocates the user, otherwise defaulting to Washington, DC
+function loadStuff() {
 	if('geolocation' in navigator) {
 		navigator.geolocation.getCurrentPosition(function(position) {
 	    	getWeather(position.coords.latitude + ',' + position.coords.longitude);
@@ -59,7 +59,7 @@ function bindMousetraps() {
 			});
 		});
 	});
-	
+
 	// Resets on ESC or spacebar
 	Mousetrap.bind(['esc', 'space'], function(e) {
 		resetMousetraps();
