@@ -26,15 +26,15 @@ div.centerWrapper {
 div.timeDate {
 	font-size: x-large;
 	padding: 0 10px 1rem;
-	text-align: left;
-	width: 50%;
+	text-align: right;
+	width: 25%;
 	text-shadow: 2px 2px  rgba(10, 10, 10, 0.9);
 }
 div.weather {
 	font-size: x-large;
 	padding: 0 10px 1rem;
-	text-align: right;
-	width: 50%;
+	text-align: left;
+	width: 100%;
 	text-shadow: 2px 2px  rgba(10, 10, 10, 0.9);
 
 }
