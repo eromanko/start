@@ -23,7 +23,7 @@ function startTime() {
 // Gets weather for requested location, appends to page
 function getWeather(place) {
 	$.simpleWeather({
-		location: "Washington, DC",
+		location: "Washington DC, USA",
 		unit: 'f',
 		success: function(weather) {
 			$('.weather').html(weather.city + '</br>' + weather.currently + ', ' + weather.temp + '&deg;');
