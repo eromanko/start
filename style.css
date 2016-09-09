@@ -50,7 +50,7 @@ a {
 	display: block;
 	outline: none;
 	padding: 15px;
-	color: #737373;
+	color: #C8C8C8;
 }
 a:after {
 	transition: all .15s;
