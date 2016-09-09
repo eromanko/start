@@ -32,7 +32,7 @@ div.timeDate {
 div.weather {
 	font-size: x-large;
 	padding: 0 15px 1rem;
-	text-align: right;
+	text-align: left;
 	width: 50%
 }
 ul {
@@ -50,7 +50,7 @@ a {
 	display: block;
 	outline: none;
 	padding: 15px;
-	color: #C8C8C8;
+	color: #DBDBDB;
 }
 a:after {
 	transition: all .15s;
