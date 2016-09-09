@@ -38,9 +38,10 @@ function getWeather(place) {
 // Geolocates the user, otherwise defaulting to Washington, DC
 function loadStuff() {
 	if('geolocation' in navigator) {
-		navigator.geolocation.getCurrentPosition(function(position) {
-	    	getWeather(position.coords.latitude + ',' + position.coords.longitude);
-	  	});
+		getWeather('Washington DC, USA')
+		// navigator.geolocation.getCurrentPosition(function(position) {
+	 //   	getWeather(position.coords.latitude + ',' + position.coords.longitude);
+	 // 	});
 	} else { getWeather('Washington DC, USA'); }
 }
 
